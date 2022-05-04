@@ -1,0 +1,27 @@
+.section-title {
+    display: none;
+}
+
+.title-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-title-h3 {
+    color: var(--primery-text-color);
+    margin-bottom: 10px;
+}
+
+.features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background: var(--light2-bg-color);
+    border-radius: 4px;
+}

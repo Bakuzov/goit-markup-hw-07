@@ -1,0 +1,45 @@
+.team-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #afb1b8;
+    transition: background-color var(--time) var(--cubic-bezier),
+        fill var(--time) var(--cubic-bezier);
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+    fill: var(--header-bg-color);
+        }
+}
+
+.team-social-icon {
+    fill: inherit;
+}
+
+//footer
+
+.our-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: var(--header-bg-color);
+    transition: var(--trans-for-link-footer);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    }
+}
+
+.team-social-icon {
+    fill: inherit;
+}

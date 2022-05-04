@@ -1,0 +1,135 @@
+.modal-button {
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--light2-bg-color);
+    border: none;
+    transition: var(--trans-for-btn);
+
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--header-bg-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+.portfolio-list {
+    background: var(--header-bg-color);
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employees-list-name-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color);
+    margin-bottom: 4px;
+}
+
+.ection-item-button {
+    display: flex;
+}
+
+.section-item-btn {
+    margin-right: 8px;
+
+
+    &:nth-child(5) {
+        margin-right: 0px;
+    }
+}
+.section-list-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.portfolio {
+    margin-top: 94px;
+}
+
+.employees-item-ptojekt {
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+
+    &:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+
+    &:nth-child(7),
+    &:nth-child(8),
+    &:nth-child(9) {
+        margin-bottom: 0px;
+    }
+}
+.div-list-work {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+
+.position-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.employees-item-link {
+    display: block;
+    transition: box-shadow var(--time) var(--cubic-bezier);
+
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.animation-div {
+    position: relative;
+    overflow: hidden;
+}
+
+.animation-text {
+    position: absolute;
+    bottom: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 65px 24px;
+    width: 100%;
+    height: 100%;
+    color: var(--header-bg-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+    transition: transform var(--time) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.employees-item-link:hover .animation-text,
+.employees-item-link:focus .animation-text {
+    display: block;
+    transform: translateY(0);
+}

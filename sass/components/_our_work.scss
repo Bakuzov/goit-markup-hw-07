@@ -1,0 +1,51 @@
+.section-what-we-do {
+    padding-bottom: 94px;
+}
+
+.what-we-do {
+    position: relative;
+    display: flex;
+}
+
+.what-we-do-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-title-list1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+.list-characteristic {
+    display: flex;
+}
+
+
+
+.characteristic-item {
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+        
+    }
+}
+.what-we-do-item {
+    position: relative;
+}
+.what-we-do-title-h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: var(--header-bg-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

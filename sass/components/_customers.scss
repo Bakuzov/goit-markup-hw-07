@@ -1,0 +1,35 @@
+.customers-list {
+    display: flex;
+    align-items: center;
+}
+
+.customer-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    fill: #afb1b8;
+
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    transition: border-color var(--time) var(--cubic-bezier),
+        fill var(--time) var(--cubic-bezier);
+
+&:hover,
+&:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+        }
+}
+
+.customer-logo:hover,
+.customer-logo:focus {
+    fill: inherit;
+}

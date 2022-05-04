@@ -1,0 +1,34 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --accent-color: #2196f3;
+    --dark-bg-color: #2f303a;
+    --header-bg-color: #ffffff;
+    --light1-bg-color: #e5e5e5;
+    /*  middle psrt of index.html  */
+    --light2-bg-color: #f5f4fa;
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --border-color: #ececec;
+    --bg-hero: #c4c4c4;
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+    --time: 250ms;
+    --trans-for-link: color var(--time) var(--cubic-bezier);
+    --trans-for-link-footer: background-color var(--time) var(--cubic-bezier);
+    --trans-for-btn: color var(--time) cubic-bezier(0.4, 0, 0.2, 1),
+        background-color var(--time) cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow var(--time) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
