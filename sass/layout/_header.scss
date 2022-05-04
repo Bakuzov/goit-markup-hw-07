@@ -3,8 +3,6 @@
 }
 
 
-
-
 .header__menu__link {
     color: var(--primery-text-color);
     display: block;
@@ -17,7 +15,7 @@
     margin-right: 50px;
 }
 
-.menu .menu-link.active {
+.header__menu__link.active {
     color: var(--accent-color);
 }
 

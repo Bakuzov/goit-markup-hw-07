@@ -126,10 +126,11 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform var(--time) cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.employees-item-link:hover .animation-text,
-.employees-item-link:focus .animation-text {
-    display: block;
-    transform: translateY(0);
+
+    .employees-item-link:hover &,
+    .employees-item-link:focus & {
+        display: block;
+        transform: translateY(0);
+    }
 }
